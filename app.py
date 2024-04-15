@@ -14,7 +14,7 @@ load_dotenv()
 
 
 # --- SET PAGE CONFIG
-st.set_page_config(page_title="YomiGPT", page_icon=":heavy_dollar_sign:")
+st.set_page_config(page_title="YomiGPT", page_icon=":dollar:")
 
 
 
@@ -39,7 +39,7 @@ col1.image(
             "assets/Yomi_Denzel.png",
             # Manually Adjust the width of the image as per requirement
         )
-col2.header("💶YomiGPT")
+col2.header("💵YomiGPT")
 col2.write("Bonjour, je suis YomiGPT, une IA entraînée sur les 100 dernières vidéos de ma chaîne YouTube dédiée à l'entrepreunariat et au Business en ligne. Posez-moi vos questions, et je ferai de mon mieux pour y répondre en vous fournissant les liens de vidéos pertinentes pour approfondir le sujet.")
 
 st.caption("---")
