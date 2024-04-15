@@ -124,12 +124,11 @@ user_prompt = st.text_input("",
                             on_change=generate_response,
                             
                             )
-
+            
 col1, col2 = st.columns([0.52, 0.5])
 col2.caption(":gray[©️ 2024 Copyright [Mathieu Bekkaye](https://mathieubk-personalwebsite.streamlit.app) - All rights reserved.]")
 
-with st.align('left'):
-            st.caption(":gray[©️ 2024 Copyright [Mathieu Bekkaye](https://mathieubk-personalwebsite.streamlit.app) - All rights reserved.]")
+
 
 with open('./styles/style.css') as f:
     css = f.read()
