@@ -43,7 +43,7 @@ col1.image(
         )
 with col2:
     col1a, col2a = st.columns([0.01,10000])   
-    col2a.header(" 💵 YomiGPT")
+    col2a.header("💵 YomiGPT")
 
 with col2:
     col1, col2 = st.columns([1,100])
