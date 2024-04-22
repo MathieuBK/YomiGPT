@@ -133,8 +133,8 @@ user_prompt = st.text_input(" ",
                             )
 
 # st.text_input(label, value="", max_chars=None, key=None, type="default", help=None, autocomplete=None, on_change=None, args=None, kwargs=None, *, placeholder=None, disabled=False, label_visibility="visible")
-# !!! ERROR : "2024-04-22 01:23:31.938 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed." 
-# ==> #a -> add space in between brackets (i.e. " " instead of "") and label_visibility="collapsed" in st.text_input and all relevant fields
+# !!! ERROR IN LOGS : "2024-04-22 01:23:31.938 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed." 
+# ==> #a -> add space in between brackets (i.e. " " instead of "") and label_visibility="collapsed" in st.text_input and all relevant fields if needed
 
 
             
